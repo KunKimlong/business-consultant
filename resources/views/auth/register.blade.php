@@ -5,7 +5,7 @@
 @endsection
 
 @section('content')
-{{$errors}}
+
 <div class="col-8 d-flex p-3" style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%); border-radius: 20px; box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);">
     <div class="col-6 d-flex align-items-center">
         <img src="{{ asset('assets/image/register.png') }}" class="w-100" style="border-radius: 15px;">
