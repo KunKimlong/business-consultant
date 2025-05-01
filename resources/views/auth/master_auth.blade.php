@@ -26,28 +26,6 @@
     </style>
 </head>
 <body>
-<div class="col-8 d-flex p-3 bg-primary">
-    <div class="col-6">
-        <img src="{{asset('assets/image/login.png')}}" class="w-100">
-    </div>
-    <div class="col-6 p-3">
-        <h4 class="text-center">User Login</h4>
-        <form action="" method="post" class="row">
-           <div class="col-12 my-2">
-               <label for="email">Email:</label>
-               <input type="text" id="email" placeholder="Email" class="form-control">
-           </div>
-            <div class="col-12 my-2">
-                <label for="password">Password:</label>
-                <input type="text" id="password" placeholder="Password" class="form-control">
-            </div>
-            <div class="col-12 my-2 d-flex justify-content-end">
-                <button class="btn btn-primary px-4">Login</button>
-            </div>
-        </form>
-    </div>
-
-</div>
-
+    @yield('content')
 </body>
 </html>
